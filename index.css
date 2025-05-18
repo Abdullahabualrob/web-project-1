@@ -208,3 +208,25 @@ height: 50%;
   color: #333;
   font-size: 15px;
 }
+.secure-payment {
+  width: 350px;
+  height: 180px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px var(--Strong-Cyan);
+}
+.secure-payment i{
+  font-size: 50px;
+      color: #0099a0;
+      margin-bottom: 10px; 
+}
+.secure-payment h3 {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+.secure-payment pre {
+  color: #333;
+  font-size: 15px;
+}
