@@ -106,6 +106,13 @@ function createBookarrival2(imageSrc) {
   const container2 = document.getElementById("New-Arrivals-book-A");
   if (container2) {
     container2.innerHTML = NewArrivals1.map(createBookarrival).join("");
+
+    
+  }
+
+const container3 = document.getElementById("New-Arrivals-book-B");
+  if (container3) {
+    container3.innerHTML = NewArrivals2.map(createBookarrival2).join("");
   }
 
 
