@@ -322,3 +322,39 @@ scrollbar-width: thin;
   scrollbar-color:var(--Strong-Cyan) #eee;
  
 }
+
+
+.jone-Deo{
+color: #9e9e9e;
+
+}
+.Romance{
+color: var(--green-sea-color);
+
+}
+
+.button-learn3{
+  color: black;
+  background-color:white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin:0;
+  font-size: 14px;
+  cursor: pointer;
+  border: 2px solid var(--Strong-Cyan);
+
+ 
+
+}
+.button-learn3:hover {
+  background-color: #007777;
+}
+.cost-Book{
+  font-weight: bold;
+  font-size: medium;
+}
+.cost-past span{
+  font-size: small;
+  margin-left: auto;
+
+}
