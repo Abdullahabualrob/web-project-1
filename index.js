@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "images/image/arrival_4.jpg",
     "images/image/arrival_5.jpg",
   ];
+  
   const NewArrivals2 = [
     "images/image/arrival_6.jpg",
     "images/image/arrival_7.jpg",
