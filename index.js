@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "images/image/book_13.png",
     "images/image/book_14.png",
     "images/image/book_15.png"
-  ];  } );
+  ];  
 
 
   
@@ -24,18 +24,19 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
   const NewArrivals1 = [
-    "image/arrival_1.jpg",
-    "image/arrival_2.jpg",
-    "image/arrival_3.jpg",
-    "image/arrival_4.jpg",
-    "image/arrival_5.jpg",
+    "images/image/arrival_1.jpg",
+    "images/image/arrival_2.jpg",
+    "images/image/arrival_3.jpg",
+    "images/image/arrival_4.jpg",
+    "images/image/arrival_5.jpg",
   ];
+  
   const NewArrivals2 = [
-    "image/arrival_6.jpg",
-    "image/arrival_7.jpg",
-    "image/arrival_8.webp",
-    "image/arrival_9.jpg",
-    "image/arrival_10.jpg",
+    "images/image/arrival_6.jpg",
+    "images/image/arrival_7.jpg",
+    "images/image/arrival_8.webp",
+    "images/image/arrival_9.jpg",
+    "images/image/arrival_10.jpg",
   ];
   
 
@@ -117,3 +118,4 @@ const container3 = document.getElementById("New-Arrivals-book-B");
 
 
 
+});
