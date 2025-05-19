@@ -84,6 +84,11 @@ function createBookCard(imageSrc) {
     container1.innerHTML = books.map(createBookCard).join("");
   }
 
+  
+  const container2 = document.getElementById("New-Arrivals-book-A");
+  if (container2) {
+    container2.innerHTML = NewArrivals1.map(createBookarrival).join("");
+  }
 
 
 
