@@ -59,8 +59,26 @@ function createBookCard(imageSrc) {
   }
 
 
+  function createBookarrival(imageSrc) {
+    return `
+      <div class="book-arrival">
+        <img src="${imageSrc}" alt="Book">
+        <div class="new-arrivals"><span>New</span> <span>Arrivals</span></div>
+        <div  class="star">     
+<div>  <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>  <i class="fas fa-star-half-stroke"></i> </div>
+
+</div>
+        <input class="button-learn3" type="button" value="Learn More">
+      </div>
+    `;
+  }
+
   
-  
+
   const container1 = document.getElementById("Books-name");
   if (container1) {
     container1.innerHTML = books.map(createBookCard).join("");
