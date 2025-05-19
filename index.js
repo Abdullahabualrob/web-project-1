@@ -19,7 +19,30 @@ document.addEventListener("DOMContentLoaded", () => {
   ];  } );
 
 
-  function createBookCard(imageSrc) {
+  
+
+  
+
+  const NewArrivals1 = [
+    "image/arrival_1.jpg",
+    "image/arrival_2.jpg",
+    "image/arrival_3.jpg",
+    "image/arrival_4.jpg",
+    "image/arrival_5.jpg",
+  ];
+  const NewArrivals2 = [
+    "image/arrival_6.jpg",
+    "image/arrival_7.jpg",
+    "image/arrival_8.webp",
+    "image/arrival_9.jpg",
+    "image/arrival_10.jpg",
+  ];
+  
+
+
+
+
+function createBookCard(imageSrc) {
     return `
       <div class="book-card">
         <img src="${imageSrc}" alt="Book">
@@ -36,7 +59,13 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
+  
+  
   const container1 = document.getElementById("Books-name");
   if (container1) {
     container1.innerHTML = books.map(createBookCard).join("");
   }
+
+
+
+
