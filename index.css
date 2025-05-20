@@ -445,3 +445,51 @@ gap: 3%;
   font-size: 20px;
   font-weight: bold; 
 }
+
+
+
+
+#New-Reviews{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1%;
+  margin: 3% 3% 5% 3%;
+  overflow-x: auto;
+  scrollbar-width: thin;          
+    scrollbar-color:var(--Strong-Cyan) #eee;
+
+}
+
+#New-Reviews img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+ 
+ }
+
+
+ #New-Reviews  > div{
+  padding: 1% 1% 2% 1%;
+  gap: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  
+  } 
+.img-and-quote{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.img-and-quote i{
+  font-size: 90px;
+  color: #eaeaea
+
+
+}
