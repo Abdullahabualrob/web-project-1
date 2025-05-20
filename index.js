@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "images/image/book_12.png",
     "images/image/book_13.png",
     "images/image/book_14.png",
-    "images/image/book_15.png"
+    "images/image/book_15.png",
   ];  
 
 
@@ -39,6 +39,15 @@ document.addEventListener("DOMContentLoaded", () => {
     "images/image/arrival_10.jpg",
   ];
   
+
+  const Reviewsimg = [
+    
+    "images/image/review_1.png",
+    "images/image/review_2.png",
+    "images/image/review_3.png",
+    "images/image/review_4.png",
+    
+  ];
 
 
 
