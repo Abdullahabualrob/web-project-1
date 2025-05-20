@@ -156,5 +156,12 @@ const container3 = document.getElementById("New-Arrivals-book-B");
   }
 
 
+const container4 = document.getElementById("New-Reviews");
+  if (container4) {
+    container4.innerHTML =  Reviewsimg.map(createReviews).join("");
+  }
+
+
+
 
 });
