@@ -493,3 +493,10 @@ gap: 3%;
 
 
 }
+
+
+
+.Reviews p{
+  text-align: justify;
+word-spacing: 0;
+}
