@@ -468,3 +468,28 @@ gap: 3%;
   object-fit: cover;
  
  }
+
+
+ #New-Reviews  > div{
+  padding: 1% 1% 2% 1%;
+  gap: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  
+  } 
+.img-and-quote{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.img-and-quote i{
+  font-size: 90px;
+  color: #eaeaea
+
+
+}
