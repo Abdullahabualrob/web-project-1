@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
   const Reviewsimg = [
-    
+
     "images/image/review_1.png",
     "images/image/review_2.png",
     "images/image/review_3.png",
@@ -105,6 +105,36 @@ function createBookarrival2(imageSrc) {
       </div>
     `;
   }
+
+
+function createReviews(imageSrc) {
+    return `
+      <div class="Reviews">
+      <div class="img-and-quote"> 
+       <div>  <img src="${imageSrc}" alt="Book"> </div>
+           <div> <i class="fas fa-quote-right"> </i> </div>
+        </div> 
+        <div><h1>john Deo</h1></div>
+        <div ><p> 
+Lorem ipsum dolor sit amet, consectetur adipisicing
+elit. Natus eos doloribus iure distinctio! Eos dolorem
+quam, nisi amet saepe totam, quas quidem
+laboriosam dolore, tenetur itaque nostrum voluptas
+excepturi aut.
+</p> </div>
+        <div  class="star">     
+<div>  <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>   <i class="fas fa-star"></i></div>
+<div>  <i class="fas fa-star-half-stroke"></i> </div>
+
+</div>
+        
+      </div>
+    `;
+  }
+
 
 
   const container1 = document.getElementById("Books-name");
