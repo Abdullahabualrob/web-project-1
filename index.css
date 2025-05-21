@@ -500,3 +500,12 @@ gap: 3%;
   text-align: justify;
 word-spacing: 0;
 }
+.Digital-Book img{
+width: 100%;
+height: auto;
+}
+.Digital-Book {
+position: relative;
+display: inline-block;
+margin-right: 0;
+}
