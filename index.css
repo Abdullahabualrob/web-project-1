@@ -949,7 +949,15 @@ width: 100%;
     gap: 1rem;
     margin: 0; 
   }
-
+#New-Arrivals-book-B{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 15px;
+    gap: 1rem;
+    margin: 0; 
+  }
 
 
 
