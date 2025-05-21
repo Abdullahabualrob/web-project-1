@@ -141,7 +141,31 @@ excepturi aut.
     `;
   }
 
+function createBloger(imageSrc) {
+    return `
+      <div class="Blogers">
+    
+       <div>  <img src="${imageSrc}" alt="Book"> </div>
+    
+        <div><h1>Bloger</h1></div>
+        <div ><p> 
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Ipsam, quos quis quasi ut impedit reiciendis voluptatem
+rem esse ratione omnis, laudantium    earum.     Aperiam
+nesciunt dolore  aliquam   repellat consequatur    amet
+ducimus.
 
+</p> </div>
+        <div  class="icons-Bloger">     
+<div>  <i class="fas fa-heart"> </i></div>
+<div>   <i class="fas fa-calendar-days"></i></div>
+
+
+</div>
+        
+      </div>
+    `;
+  }
 
   const container1 = document.getElementById("Books-name");
   if (container1) {
