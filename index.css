@@ -523,3 +523,42 @@ position: absolute;
  text-align: center;
  font-size: 22px;
 }
+#New-Bloger{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5%;
+  margin: 1% 4% ; 
+
+
+}
+#New-Bloger > div{
+  padding:  2%;
+  gap: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  border-color: white;
+  } 
+#New-Bloger img{
+  width: 404.76px;
+  height: 269.63;
+margin: 0;
+  object-fit: cover; 
+} 
+
+#New-Bloger p{
+  text-align: justify;
+  word-spacing: 0;
+
+}
+#New-Bloger h1{
+  color: var(--Strong-Cyan);
+
+}
+#New-Bloger i{
+  color: var(--Strong-Cyan);
+
+}
