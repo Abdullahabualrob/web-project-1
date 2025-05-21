@@ -48,8 +48,14 @@ document.addEventListener("DOMContentLoaded", () => {
     "images/image/review_4.png",
     
   ];
-
-
+   
+const Bloger = [
+    "image/blog_1.jpg",
+    "image/blog_2.jpg",
+    "image/blog_3.jpg",
+    
+    
+  ];
 
 
 function createBookCard(imageSrc) {
