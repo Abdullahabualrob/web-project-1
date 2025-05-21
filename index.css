@@ -562,3 +562,34 @@ margin: 0;
   color: var(--Strong-Cyan);
 
 }
+.icons-Bloger{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+.footer{
+  display: flex;
+background-color: #eaeaea;
+align-items: flex-start;
+justify-content: space-around;
+padding: 1% ;
+
+
+}
+.sec1-footer{
+display: flex;
+flex-direction: column;
+gap: 30px;
+width: 15%;
+}
+.sec1-footer img{
+width: 40%;
+height: 40%;
+}
+.sec1-footer p{
+  text-align: justify;
+  word-spacing: 0;
+ 
+}
