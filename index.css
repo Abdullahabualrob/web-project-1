@@ -887,7 +887,11 @@ width: 100%;
       gap:5%;
    
   }
-
+.icons{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  }
 
 
 
