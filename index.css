@@ -593,3 +593,53 @@ height: 40%;
   word-spacing: 0;
  
 }
+.Quick-Link-list{
+display: flex;
+flex-direction: column;
+  gap: 10px;
+}
+.list-phonefooter{
+  display: flex;
+  flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.icons-Social-Media{
+  display: flex;
+  gap: 10px;
+  
+}
+.input-Newsletter{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#email-input {
+  width: 100%;
+  padding: 3% 20% 3% 4%;
+  border: none;
+  border-radius: 100px;
+  background-color: #cacaca;
+  width: 200px;
+}
+#submit-input{
+  background-color: var(--Strong-Cyan);
+  color: white;
+  padding: 10px ;
+      border: none;
+      border-radius: 100px;
+      cursor: pointer;
+      text-align: left;
+      width: 80px;
+}
+
+.end-page{
+  background-color: #eaeaea;
+text-align: center;
+}
+.end-page span{
+
+  color: var(--Strong-Cyan);
+}
