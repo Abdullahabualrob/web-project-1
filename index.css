@@ -851,6 +851,11 @@ width: 100%;
     text-align: center;
     margin-bottom: 20px;
   }
+  .welcom-t0-book-store pre,
+  .paragraph pre {
+    font-size: 14px;
+    white-space: normal;
+  }
   
 
 
