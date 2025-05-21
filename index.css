@@ -969,7 +969,25 @@ width: 100%;
   overflow: hidden;
 
 }
+.img-and-quote{
 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;  
+}
+#New-Bloger{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 100px;
+  gap: 1rem;
+  margin: 0; 
+  width: 100%;
+
+
+}
 
 
 }
