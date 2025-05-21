@@ -986,8 +986,20 @@ width: 100%;
   margin: 0; 
   width: 100%;
 
-
 }
+.footer{
+  display: flex;
+background-color: #eaeaea;
+align-items: flex-start;
+justify-content: space-around;
+
+gap: 10px;
+width: 100%;
+}
+#email-input{
+  width: 135px;
+}
+
 
 
 }
