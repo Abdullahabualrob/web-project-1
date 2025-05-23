@@ -50,9 +50,9 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
    
 const Bloger = [
-    "image/blog_1.jpg",
-    "image/blog_2.jpg",
-    "image/blog_3.jpg",
+    "images/image/blog_1.jpg",
+   "images/image/blog_2.jpg",
+    "images/image/blog_3.jpg",
     
     
   ];
@@ -185,13 +185,12 @@ const container3 = document.getElementById("New-Arrivals-book-B");
     container3.innerHTML = NewArrivals2.map(createBookarrival2).join("");
   }
 
-
 const container4 = document.getElementById("New-Reviews");
   if (container4) {
     container4.innerHTML =  Reviewsimg.map(createReviews).join("");
   }
-
-if (container5) {
+   const container5 = document.getElementById("New-Bloger");
+ if (container5) {
     container5.innerHTML = Bloger.map(createBloger).join("");
   }
 
