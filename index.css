@@ -150,20 +150,24 @@ height: 50%;
   border-radius: 8px;
   box-shadow: 0 0 8px var(--Strong-Cyan);
 }
-.card i{
-  font-size: 50px;
- 
-      color: #0099a0;
-      margin-bottom: 10px; 
+.card {
+  i {
+    font-size: 50px;
+    color: #0099a0;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+
+  pre {
+    color: #333;
+    font-size: 15px;
+  }
 }
-.card h3 {
-  margin: 10px 0 5px;
-  font-weight: bold;
-}
-.card pre {
-  color: #333;
-  font-size: 15px;
-}
+
 .services {
   width: 350px;
   height: 180px;
@@ -195,19 +199,24 @@ height: 50%;
   border-radius: 8px;
   box-shadow: 0 0 8px var(--Strong-Cyan);
 }
-.Best-Dell i{
-  font-size: 50px;
-      color: #0099a0;
-      margin-bottom: 10px; 
+.Best-Dell {
+  i {
+    font-size: 50px;
+    color: #0099a0;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+
+  pre {
+    color: #333;
+    font-size: 15px;
+  }
 }
-.Best-Dell h3 {
-  margin: 10px 0 5px;
-  font-weight: bold;
-}
-.Best-Dell pre {
-  color: #333;
-  font-size: 15px;
-}
+
 .secure-payment {
   width: 350px;
   height: 180px;
@@ -238,12 +247,15 @@ align-items: center;
 gap: 10%;
 margin: 0;
 }
-.about-img > img{
-width:100%;
-height: 90%;
-margin-top: 0;
 
+.about-img {
+  img {
+    width: 100%;
+    height: 90%;
+    margin-top: 0;
+  }
 }
+
 .about-us{
   display: flex;
 flex-direction: column;
