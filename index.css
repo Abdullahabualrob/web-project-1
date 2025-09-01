@@ -613,7 +613,6 @@ a {
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .section1,
-  .section2,
   .section3,
   #Books-name,
   #New-Arrivals-book-A,
@@ -628,17 +627,19 @@ a {
   }
 
   .header {
-    padding: 10%;
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 2px solid #089da1;
+  padding: 1%;
+  box-shadow: 0 4px 6px -4px #089da1;
+
   }
 
   .logo {
     width: 20%;
     height: 10%;
-  }
-
-  .list-componnent {
-    flex-direction: column;
-    gap: 5%;
   }
 
   .books img {
@@ -653,4 +654,90 @@ a {
   #email-input {
     width: 135px;
   }
+  .section2{
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  .section1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5%;
+  overflow: hidden;
+
+  img {
+    width: 70%;
+    height: 60%;
+  }
+
+  .section-1-A {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    gap: 40px;
+
+    .WELCOME-TO {
+      font-weight: bold;
+      font-size: 50px;
+      color: var(--dark-color);
+    }
+
+    .BOOK-STORE {
+      font-weight: bold;
+      font-size: 50px;
+      color: var(--Strong-Cyan);
+    }
+
+    .paragraph {
+      font-size: large;
+    }
+
+    .button-learn1 {
+      color: var(--white-color);
+      background-color: var(--Strong-Cyan);
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-left: 50px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #007777;
+      }
+    }
+  }
+
+  .bg-image {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .books {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+
+    img {
+      width: 80%;
+      height: 50%;
+    }
+  }
+}
 }
